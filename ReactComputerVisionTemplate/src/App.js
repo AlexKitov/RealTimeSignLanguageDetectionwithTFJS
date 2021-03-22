@@ -19,6 +19,7 @@ function App() {
     // https://tensorflowjsrealtimemodel.s3.eu-north-1.amazonaws.com/model.json
     const net = await tf.loadGraphModel('https://tensorflowjsrealtimemodel.s3.eu-north-1.amazonaws.com/model.json')
     
+    
     //  Loop and detect hands
     setInterval(() => {
       detect(net);

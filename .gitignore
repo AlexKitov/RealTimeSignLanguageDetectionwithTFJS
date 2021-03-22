@@ -10,6 +10,7 @@
 
 # production
 /build
+ReactComputerVisionTemplate/build
 
 # misc
 .DS_Store
